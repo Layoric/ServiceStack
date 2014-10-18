@@ -99,6 +99,7 @@
     </Compile>
     <Compile Include="Configuration\EnvironmentVariableSettings.cs" />
     <Compile Include="Configuration\MultiAppSettings.cs" />
+    <Compile Include="NativeTypes\Dart\DartGenerator.cs" />
     <Compile Include="NativeTypes\VbNet\VbNetGenerator.cs" />
     <Compile Include="ServiceStackProvider.cs" />
     <Compile Include="AsyncExtensions.cs" />

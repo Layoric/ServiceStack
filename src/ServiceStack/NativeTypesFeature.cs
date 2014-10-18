@@ -40,6 +40,21 @@ namespace ServiceStack
                     { "Int64", "Long" },    
                     { "DateTime", "Date" },    
                 },
+                DartTypeAlias = new Dictionary<string, string>
+                {
+                    { "String", "String" },    
+                    { "Boolean", "bool" },    
+                    { "Byte", "ByteData" },    
+                    { "Int16", "int" },    
+                    { "Int32", "int" },    
+                    { "Int64", "double" },    
+                    { "UInt16", "int" },    
+                    { "UInt32", "int" },    
+                    { "UInt64", "double" },    
+                    { "Single", "double" },    
+                    { "Double", "double" },    
+                    { "Decimal", "double" }
+                },
                 VbNetKeyWords = new HashSet<string>
                 {
                     "Default",

@@ -43,7 +43,9 @@ namespace ServiceStack.NativeTypes
                 CSharpTypeAlias = defaults.CSharpTypeAlias,
                 FSharpTypeAlias = defaults.FSharpTypeAlias,
                 VbNetTypeAlias = defaults.VbNetTypeAlias,
+                DartTypeAlias = defaults.DartTypeAlias,
                 VbNetKeyWords = defaults.VbNetKeyWords,
+                DartKeyWords = defaults.DartKeyWords,
                 GlobalNamespace = defaults.GlobalNamespace,
             };
         }

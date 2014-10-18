@@ -29,6 +29,11 @@ namespace ServiceStack.NativeTypes
             sb.AppendLine(str);
         }
 
+        public void Append(string append)
+        {
+            sb.Append(append);
+        }
+
         public StringBuilderWrapper Indent()
         {
             return new StringBuilderWrapper(sb, indent + 1);
